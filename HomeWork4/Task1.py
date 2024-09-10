@@ -50,3 +50,4 @@ elif oper == 3:
     print(max_digit(num_in))
 else:
     print('Error operation')
+

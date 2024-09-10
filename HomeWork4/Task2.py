@@ -58,10 +58,11 @@ def main_menu():
         else:
             print('The game was not found')
         new_game = int(input('Do you want to play again:\n'
-                         '1 - Yes\n'
-                         'any other symbol - No\n'))
+                             '1 - Yes\n'
+                             'any other symbol - No\n'))
         if new_game != 1:
             break
 
 
-main_menu()
+if __name__ == '__main__':
+    main_menu()
